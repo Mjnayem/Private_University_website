@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<link  rel="stylesheet" href="bootstrap.min.css"/>
+
+	<style type="text/css">
+  
+
+		
+		#main_body{
+			width: 80%;
+			height: auto;
+			position: absolute;
+			left: 10%;
+      margin-top: 50px;
+		}
+    .list-group-item{
+      text-align: center;
+      height: 80px;
+      font-family: 'oswald',sans-serif;
+    }
+
+
+		@media only screen and (max-width: 900px){
+			#main_body{
+			width: 100%;
+			height: auto;
+			position: absolute;
+			left: 0%;
+		}
+
+		}
+	</style>
+</head>
+<body>
+<div id="main_body">
+	
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid ">
+
+
+
+   <div class="navbar-header" >
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Ashikur Rahman</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav  navbar-right">
+        <li class="toggle"><a href="#"><i><b>Home</b></i><span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i><b>Profile</b></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i><b>Profile</b></i></a></li>
+            <li><a href="#"><i><b>Edit Profile</b></i></a></li>
+            <li><a href="#"><i><b>Change Password</b></i></a></li>
+            
+          </ul>
+        </li>
+
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i><b>Payment</b></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i><b>Payment Ledger</b></i></a></li>
+            <li><a href="#"><i><b>Payment Scheme</b></i></a></li>
+           
+            
+          </ul>
+        </li>
+
+
+
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i><b>Registration</b></i><span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><i><b>Course Registration</b></i></a></li>
+            <li><a href="#"><i><b>Drop Semester</b></i></a></li>
+            <li><a href="#"><i><b>Pre-Registration</b></i></a></li>
+            
+
+
+          </ul>
+        </li>
+          <li class="toggle"><a href="#"><i><b>Result</b></i><span class="sr-only">(current)</span></a></li>
+           <li class="toggle"><a href="#"><i><b>Log out</b></i><span class="sr-only">(current)</span></a></li>
+
+
+         </ul>
+  </div>
+  </nav>
+
+
+<div class="list-group">
+  <h2 class="list-group-item active ">
+   Student Dashboard
+  </h2>
+  
+</div>
+<h3>Please give suggestions to improve our University</h3>
+
+
+<form >
+  <div class="form-group ">
+   
+     
+    <select class="form-control">
+  <option value="Other">Other</option>
+  <option value="Student Portal">Student Portal</option>
+  <option value="Hostal">Hostal</option>
+  <option value="Transport">Transport</option>
+  <option value="Security">Security</option>
+  <option value="Library">Library</option>
+  <option value="Accounts">Accounts</option>
+  <option value="Exam">Exam</option>
+  <option value="My Dept.">My Dept</option>
+</select>
+
+  </div>
+
+  
+  <div class="form-group ">
+  
+  <textarea class="form-control" collam="3"></textarea>
+  </div>
+  
+  <div class="form-group">
+  <button type="submit" class="btn btn-default">Submit</button>
+  </div>
+</form>
+
+
+<h3>Your Suggestion to improve our University</h3>
+<table class="table table-condensed">
+ 
+<th>Suggestion Type</th>
+<th>Suggestion Description</th>
+<th>Date</th>
+
+
+<tr>
+  <td class="active">Ashik</td>
+  <td class="success">Ashik</td>
+  <td class="warning">Ashik</td>
+  
+  
+</tr>
+</table>
+
+
+
+
+  </div>
+</body>
+</html>
